@@ -85,3 +85,7 @@
 2025-09-12 23:20:02,896 - src.services.prompt_service - INFO - Matched Prompt 5 for input: Workers Compensation, Summarize, Summons
 2025-09-12 23:20:02,896 - src.controllers.prompt_controller - INFO - Request successful: {'matched_prompt': 'Prompt 5', 'status': 'success'}
 2025-09-12 23:20:02,896 - werkzeug - INFO - 127.0.0.1 - - [12/Sep/2025 23:20:02] "POST /api/match-prompt HTTP/1.1" 200 -
+2025-09-12 23:40:11,909 - src.controllers.prompt_controller - INFO - Processing request: {'situation': 'Workers Compensation', 'level': 'Summarize', 'file_type': 'Summons', 'data': ''}
+2025-09-12 23:40:11,909 - src.services.prompt_service - INFO - Matched Prompt 5 for input: Workers Compensation, Summarize, Summons
+2025-09-12 23:40:11,909 - src.controllers.prompt_controller - INFO - Request successful: {'matched_prompt': 'Prompt 5', 'status': 'success'}
+2025-09-12 23:40:11,910 - werkzeug - INFO - 127.0.0.1 - - [12/Sep/2025 23:40:11] "POST /api/match-prompt HTTP/1.1" 200 -
